@@ -1,0 +1,25 @@
+################################# achievements ##################################
+achievements:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  counter_item:
+    # counter item loop
+    - title : "Community members"
+      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+      count : "5000"
+    
+    # counter item loop
+    - title : "Code repositaries"
+      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+      count : "5"
+    
+    # counter item loop
+    - title : "Online events"
+      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+      count : "50"
+    
+    # counter item loop
+    - title : "Offline events"
+      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      count : "15"

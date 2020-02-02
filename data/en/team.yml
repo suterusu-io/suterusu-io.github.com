@@ -1,0 +1,68 @@
+############################### team ############################
+team:
+  enable : true
+  title : Our Team
+  team_member :
+    # team member loop
+    - name : ZP
+      image_webp : images/team/team-1.webp
+      image : images/team/team-1.jpg
+      designation : co-Founder
+      content : an open-source veteran with more than one decade of successful experience in contributing and building community. He has also worked for Linux distribution companies like Ubuntu in the past and devoted himself to the blockchain industry. He specializes in open source project development, IoT and cloud computing. He is also a strong believer in decentralized technology.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Dr. Lin
+      image_webp : images/team/team-2.webp
+      image : images/team/team-2.jpg
+      designation : CTO
+      content : Dr. Lin holds Ph.D. degrees on applied cryptography and privacy in the distributed system from Shanghai Jiao Tong University and the University of Florida respectively. He has worked as a postdoctoral researcher in Ecole Polytechnique Federale de Lausanne on applied cryptography for genomic data and blockchain-based data monetization.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Michael Jonson
+      image_webp : images/team/team-3.webp
+      image : images/team/team-3.jpg
+      designation : Web Developer
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Mo. Kha. Alamgir
+      image_webp : images/team/team-4.webp
+      image : images/team/team-4.jpg
+      designation : SEO Specialist
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
