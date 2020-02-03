@@ -5,8 +5,8 @@ banner:
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Suterusu"
-  content : "A more transparent privacy coin with smart contract support"
+  content : "A more transparent zcash with smart contract support"
   button:
     enable : true
-    label : "Yellowpaper"
+    label : "Explore us"
     link : "#services"

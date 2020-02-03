@@ -4,12 +4,12 @@ about:
   title : About Us
   about_item :
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
-    title : Annonymous Payment
+    title : Anonymous Payment
     content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
 
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
     title : Confidential Transaction
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Only the sender and reciver in a transaction know the exact amount, the rest of the network will not be able to know. 
 
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
     title : Confidential Contract

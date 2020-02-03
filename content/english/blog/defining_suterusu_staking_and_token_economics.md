@@ -1,5 +1,5 @@
 ---
-title: "Defining_suterusu_staking_and_token_economics"
+title: "Defining suterusu staking and token economics"
 date: 2019-12-18T21:19:02+08:00
 ---
 

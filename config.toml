@@ -71,8 +71,8 @@ weight = 4
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "Suterusu is a more transparent zcash with smart contract support "
+author = "Suterusu"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # post share
@@ -102,8 +102,8 @@ icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
 link = "https://github.com/suterusu-team"
 
 [[params.social]]
-icon = "ti-" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-reddit" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.reddit.com/r/Suterusu/"
 
 [[params.social]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons

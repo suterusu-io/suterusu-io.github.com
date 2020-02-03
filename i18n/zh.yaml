@@ -1,18 +1,18 @@
 - id: blogTitle
-  translation: Dernier message
+  translation: 最新文章
 - id: readMore
-  translation: Lire la suite
+  translation: 阅读详情
 - id: viewAllPost
-  translation: Voir tous les articles
+  translation: 查看所有文章
 - id: share
-  translation: Partager
+  translation: 分享
 - id: aboutAuthor
-  translation: À propos de l'auteur
+  translation: 关于作者
 - id: authorsPosts
-  translation: Articles de l'auteur
+  translation: 此作者的文章
 - id: submit
-  translation: Soumettre
+  translation: 发布
 - id: all
-  translation: All
+  translation: 全部
 - id: copyright
-  translation: copyright et copie; 2019 [gethugothemes] (https://gethugothemes.com) tous droits réservés
+  translation: copyright &copy; 2019 [Suterusu](https://www.suterusu.io) all right reserved
