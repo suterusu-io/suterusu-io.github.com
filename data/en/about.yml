@@ -5,7 +5,7 @@ about:
   about_item :
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
     title : Anonymous Payment
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Make any payments without exposing sender or reciver's information. 
 
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
     title : Confidential Transaction
@@ -13,4 +13,4 @@ about:
 
   - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
     title : Confidential Contract
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Smart contract also needs to be protected, we will impelment condiential smart contract as well. 
