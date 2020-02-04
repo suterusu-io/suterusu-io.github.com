@@ -972,6 +972,8 @@ a:hover {
   padding: 60px 20px;
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
+  width: 300px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -988,10 +990,10 @@ a:hover {
 ==================================================================*/
 .service-2 .service-item {
   border: 1px solid #eee;
-  margin-left: auto;
+/*   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding: 50px 20px;
+  padding: 50px 20px; */
   transition: all 0.3s ease 0s;
 }
 
@@ -1256,15 +1258,12 @@ a:hover {
 
 .post-block {
   background-color: #292F36;
-  width: 300px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 10px;
 }
 
 .post-block .content {
   padding: 20px;
+  white-space: normal;
 }
 
 .post-block .content h3 {
