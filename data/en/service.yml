@@ -21,4 +21,4 @@ service:
     # service item loop
     - name : On-chain scaling 
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : zk-ConSNARK will also help with the on-chain scalling.

@@ -3,14 +3,14 @@ about:
   enable : true
   title : About Us
   about_item :
-  - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
-    title : Anonymous Payment
-    content : Make any payments without exposing sender or reciver's information. 
+  - icon : ti-lock # themify icon pack : https://themify.me/themify-icons
+    title : Privacy
+    content : With our innovative zk-ConSNARK, we will bring privacy as solution and service to others.
 
-  - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
-    title : Confidential Transaction
-    content : Only the sender and reciver in a transaction know the exact amount, the rest of the network will not be able to know. 
+  - icon : ti-bag # themify icon pack : https://themify.me/themify-icons
+    title : Confidentiality
+    content : Confidentiality is critical to DeFi, our technology will be a general purpose protocol to facilitate the expanding and growth of DeFi.
 
-  - icon : ti-arrow-right # themify icon pack : https://themify.me/themify-icons
-    title : Confidential Contract
-    content : Smart contract also needs to be protected, we will impelment condiential smart contract as well. 
+  - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+    title : Efficiency
+    content : By decrease the time of proof generation and verification, we will make it more useful. In addition, the gas fee will be reduced siganificantly.
