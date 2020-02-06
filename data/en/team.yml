@@ -36,27 +36,11 @@ team:
           link : "#"
         
     # team member loop
-    - name : Michael Jonson
+    - name : Seven Guo
       image_webp : images/team/team-3.webp
       image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : CSO
+      content : Dr. Guo holds Ph.D on Economics, chief strategy officer of Suterusu Foundation, used to be the chief researcher fellow in Huobi Academy of Blockchain Application.  Author of "block chain reshaping the economy and the world" and "the application of blockchain in the insurance industry” included in the "Chinese Fintech Development Report 2017"; has rich experience in technology trend, blockchain application and investment areas. 
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
