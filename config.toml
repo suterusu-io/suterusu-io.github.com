@@ -61,8 +61,8 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
+name = "Wallet"
+URL = "https://node.suterusu.io"
 weight = 4
 
 
