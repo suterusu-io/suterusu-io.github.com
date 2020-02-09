@@ -9,12 +9,12 @@ feature:
       # feature item loop
     - title : No trusted setup
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : There is no trsuted setup needed. 
       
       # feature item loop
     - title : Consant proof size 
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : 
 
       # feature item loop
     - title : High efficiency 
