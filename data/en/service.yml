@@ -1,5 +1,5 @@
 ################################# Service #################################
-service:
+ervice:
   enable : true
   title : Our products and services
   service_item :

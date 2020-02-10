@@ -28,12 +28,12 @@ h5,
 h6 {
   font-weight: 400;
   /* font-family: "Quattrocento Sans", sans-serif; */
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #afbac4;
 }
 
 p {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -342,7 +342,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .header-bradcrumb a:hover {

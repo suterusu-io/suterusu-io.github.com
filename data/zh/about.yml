@@ -3,14 +3,14 @@ about:
   enable : true
   title : 关于我们
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : 
-    content : 
+  - icon : ti-lock # themify icon pack : https://themify.me/themify-icons
+    title : 隐私
+    content : 通过使用我们创新的zk-ConSNARK, 我们将隐私作为不同的方案和隐私呈现给您。
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : 
-    content : 
+  - icon : ti-bag # themify icon pack : https://themify.me/themify-icons
+    title : 保密
+    content : 保密的特性对于Defi来说很重要，我们将利用我们的核心技术为Defi提供一致性的基础协议。
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : 
-    content : 
+  - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+    title : 效率
+    content : 通过减少证明的生成和验证时间，我们把零识证明变得更可用，同时gas费用也会得到降低。

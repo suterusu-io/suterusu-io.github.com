@@ -1,34 +1,25 @@
 ################################# Service #################################
+
 service:
   enable : true
-  title : Our Services
+  title : Our products and services
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : zk-ConSNARK SDK
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : 我们使用Rust来实现我们的算法，并且封装成SDK供任何有需要的人使用。 
       
     # service item loop
-    - name : Responsive Design
+    - name : DeFi 基础设施
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : 通过我们的核心基础来实现匿名支付，隐私的智能合约等功能，将服务于更多的DefI的应用。
       
     # service item loop
-    - name : Media &amp; Advertisement
+    - name : 去中心化身份认证
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : 通过我们的基础设施，也将为各种去中心的身份认证提供服务。
       
     # service item loop
-    - name : Graphic Design
+    - name : 链上扩容
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    # service item loop
-    - name : Apps Development
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : zk-ConSNARK 还会被用作其它公链项目提供链上扩容的重要技术

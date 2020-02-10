@@ -1,27 +1,27 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  image : images/about/features.jpg
+  image_webp : images/about/features.webp
+  title : zk-ConSNARK 是我们的核心技术
+  content : "a state-of-the-art trustless ZK-SNARK scheme with almost constant size proof and efficient proof generation and verification."
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : 无可信预设
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : 我们的算法无需可信预设，因此更加安全 
       
       # feature item loop
-    - title : Easy Customization
+    - title : 证明大小为常量 
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : 
 
       # feature item loop
-    - title : SEO Optimized
+    - title : 高效
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : 高效的生成和验证证明
       
       # feature item loop
-    - title : Easy Customization
+    - title : 匿名和保密
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : 为交易中的双方提供匿名性和保密性
