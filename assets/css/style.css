@@ -1053,6 +1053,7 @@ a:hover {
 ==================================================================*/
 .team-member {
   background-color: #292F36;
+  min-block-size: 400;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
