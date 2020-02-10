@@ -6,7 +6,7 @@ service:
     # service item loop
     - name : zk-ConSNARK SDK
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : The SDK is a rust implementation of zk-ConSNARK with compatiable interface to zk-SNARK. 
       
     # service item loop
     - name : DeFi infrastructure
@@ -16,7 +16,7 @@ service:
     # service item loop
     - name : Decentrailized Identification
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : With the 
+      content : We will also facilitate the infrastructure to build DID applications.
       
     # service item loop
     - name : On-chain scaling 

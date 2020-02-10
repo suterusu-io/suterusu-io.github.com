@@ -7,12 +7,12 @@ achievements:
     # counter item loop
     - title : "Community members"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
-      count : "5000"
+      count : "35000"
     
     # counter item loop
-    - title : "Code repositaries"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
-      count : "5"
+    #- title : "Code repositaries"
+    #  icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+    # count : "5"
     
     # counter item loop
     - title : "Online events"
