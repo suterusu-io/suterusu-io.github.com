@@ -8,5 +8,9 @@ banner:
   content : "A trustless zcash supporting smart contract"
   button:
     enable : true
-    label : "Explore us"
-    link : "#services"
+    button_item:
+    - label : "Whitepaper" 
+      link : "https://github.com/suterusu-team/whitepaper/releases/download/0.1/Suterusu-whitepaper-0.1.pdf"
+
+    - label : "Yellowpaper"
+      link : "https://github.com/suterusu-team/Suter_yellowpaper/blob/master/Suterusu%20yellowpaper%20V%200.2.pdf"

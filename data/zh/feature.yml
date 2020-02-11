@@ -14,7 +14,7 @@ feature:
       # feature item loop
     - title : 证明大小为常量 
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : 
+      content : 证明通常随待证明命题变复杂而变大，而常量大小的证明意味着不论命题多复杂，其大小都始终不变的。
 
       # feature item loop
     - title : 高效

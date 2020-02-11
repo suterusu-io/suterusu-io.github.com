@@ -14,7 +14,7 @@ feature:
       # feature item loop
     - title : Consant proof size 
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : 
+      content : Usually, the proof size grows as the complexity of the statement to prove increases, but a constant-size proof implies it will remain the same regardless of the statement complexity.
 
       # feature item loop
     - title : High efficiency 
@@ -24,4 +24,4 @@ feature:
       # feature item loop
     - title : Anonymity and confidentiality
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Grant sender and receiver anonymity and transacation confidentiality
+      content : Guarantee both the sender and receiver anonymity and the transaction amount confidentiality

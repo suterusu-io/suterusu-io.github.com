@@ -5,12 +5,11 @@ about:
   about_item :
   - icon : ti-lock # themify icon pack : https://themify.me/themify-icons
     title : Privacy
-    content : With our innovative zk-ConSNARK, we will bring privacy as solution and service to others.
-
+    content : We provide a privacy-as-service platform to every blockchain ecosystem with our novel ZK-ConSNARK scheme.
   - icon : ti-bag # themify icon pack : https://themify.me/themify-icons
     title : Confidentiality
-    content : Confidentiality is critical to DeFi, our technology will be a general purpose protocol to facilitate the expanding and growth of DeFi.
+    content : Transactional confidentiality is critical to DeFi. Our work lays the technical foundation for DeFi.
 
   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
     title : Efficiency
-    content : By decrease the time of proof generation and verification, we will make it more useful. In addition, the gas fee will be reduced siganificantly.
+    content : By optimizing the proof generation and verification efficiency, we reduce the gas cost of confidential payment mechanisms and hence provide a more desirable solution.
