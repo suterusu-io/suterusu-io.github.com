@@ -23,7 +23,7 @@ team:
     - name : Dr. Lin
       image_webp : images/team/team-2.webp
       image : images/team/team-2.jpg
-      designation : CTO
+      designation : CTO/co-Founder
       content : Dr. Lin holds Ph.D. degrees on applied cryptography and privacy in the distributed system from Shanghai Jiao Tong University and the University of Florida respectively. He has worked as a postdoctoral researcher in Ecole Polytechnique Federale de Lausanne on applied cryptography for genomic data and blockchain-based data monetization.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
