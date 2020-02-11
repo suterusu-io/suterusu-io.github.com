@@ -1,13 +1,13 @@
 ############################### team ############################
 team:
   enable : true
-  title : Our team
+  title : Core team
   team_member :
     # team member loop
     - name : ZP
       image_webp : images/team/team-1.webp
       image : images/team/team-1.jpg
-      designation : 创始人之一
+      designation : co-Founder
       content : an open-source veteran with more than one decade of successful experience in contributing and building community. He has also worked for Linux distribution companies like Ubuntu in the past and devoted himself to the blockchain industry. He specializes in open source project development, IoT and cloud computing. He is also a strong believer in decentralized technology.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
