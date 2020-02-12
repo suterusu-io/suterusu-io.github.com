@@ -8,7 +8,7 @@ team:
       image_webp : images/team/team-1.webp
       image : images/team/team-1.jpg
       designation : co-Founder
-      content : an open-source veteran with more than one decade of successful experience in contributing and building community. He has also worked for Linux distribution companies like Ubuntu in the past and devoted himself to the blockchain industry. He specializes in open source project development, IoT and cloud computing. He is also a strong believer in decentralized technology.
+      content : 资深开源人士，在开源社区建设上有十年以上的成功经验。曾先后供职于Linux的发行版本公司，如Ubuntu等；在开源项目开发，云计算和物联网领域积累了丰富的经验。近年投身于区块链行业，致力于去中心化技术和隐私保护技术的开发实践中。
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -24,7 +24,7 @@ team:
       image_webp : images/team/team-2.webp
       image : images/team/team-2.jpg
       designation : CTO
-      content : Dr. Lin holds Ph.D. degrees on applied cryptography and privacy in the distributed system from Shanghai Jiao Tong University and the University of Florida respectively. He has worked as a postdoctoral researcher in Ecole Polytechnique Federale de Lausanne on applied cryptography for genomic data and blockchain-based data monetization.
+      content : 拥有上海交通大学的密码学博士和佛罗里达大学的隐私保护分布式系统博士学位。曾在洛桑理工学院担任博士后研究员，负责基因组数据保护和基于区块链的数据货币化方面的应用密码学研究。后任香港应用科技研究院副主任工程师，是若干区块链项目的PI，负责架构及方案设计。曾在多个顶级IEEE期刊和密码安全会议上发表二十几篇论文，引用次数过1000。
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -40,7 +40,7 @@ team:
       image_webp : images/team/team-3.webp
       image : images/team/team-3.jpg
       designation : CSO
-      content : Dr. Guo holds Ph.D on Economics, chief strategy officer of Suterusu Foundation, used to be the chief researcher fellow in Huobi Academy of Blockchain Application.  Author of "block chain reshaping the economy and the world" and "the application of blockchain in the insurance industry” included in the "Chinese Fintech Development Report 2017"; has rich experience in technology trend, blockchain application and investment areas. 
+      content : 中央财经大学经济学博士，对区块量技术创新及应用有多年研究，著有《区块链重塑经济与世界》一书, 曾领导火币研究院
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
