@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://www1.suterusu.io"
+baseURL = "https://www.suterusu.io"
 title = "Suterusu project "
 theme = "meghna-hugo"
 # post pagination
