@@ -31,7 +31,7 @@ Suter的客户端的核心是实现了一套DSL(Doamin specific language), 翻�
 
 ## Suter_client的架构和组成
 Suter_client架构如图：
-![Suter_client architecture](/images/blog/suter_client.jpg)
+![Suter_client architecture](/images/blog/suter_cli.jpg)
 
 Suter_CLI主要由三个核心组件构成
 * 接口层
