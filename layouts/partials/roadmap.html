@@ -12,7 +12,8 @@
             </div>
           </div>
         <div class="container">
-            <img src="{{ .bg_image_webp | absURL }}" alt="Roadmap" width="100%" height="auto" />
+            <source type="image/webp" srcset="{{ .bg_image_webp | absURL }}" />
+            <img src="{{ .bg_image | absURL }}" alt="Roadmap" width="100%" height="auto" />
         </div>
     </div>
 </section>
