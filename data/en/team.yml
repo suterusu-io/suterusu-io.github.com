@@ -24,7 +24,7 @@ team:
       image_webp : images/team/team-2.webp
       image : images/team/team-2.jpg
       designation : CTO/co-Founder
-      content : Dr. Lin holds Ph.D. degrees on applied cryptography and privacy in the distributed system from Shanghai Jiao Tong University and the University of Florida respectively. He has worked as a postdoctoral researcher in Ecole Polytechnique Federale de Lausanne on applied cryptography for genomic data and blockchain-based data monetization.
+      content : Huang is an applied cryptographer by training. Huang holds Ph.D. degrees in Applied cryptography and privacy-preserving distributed systems from Shanghai Jiao Tong University and the University of Florida, respectively. He worked as a postdoctoral researcher in Swiss Federal Institute of Technology (EPFL), and then as an associate principal engineer in ASTRI, HongKong. He has published over 20 papers with over 1000 citations on applied cryptography and information security.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -40,7 +40,7 @@ team:
       image_webp : images/team/team-3.webp
       image : images/team/team-3.jpg
       designation : CSO
-      content : Dr. Guo holds Ph.D on Economics, chief strategy officer of Suterusu Foundation, used to be the chief researcher fellow in Huobi Academy of Blockchain Application.  Author of "block chain reshaping the economy and the world" and "the application of blockchain in the insurance industry” included in the "Chinese Fintech Development Report 2017"; has rich experience in technology trend, blockchain application and investment areas. 
+      content : Dr. Guo holds a Ph.D. degree in Economics. He is the chief strategy officer of the Suterusu project. He was the chief research fellow in the Huobi Academy of Blockchain Application. The author of two books “blockchain reshaping the economy and the world” and “the application of blockchain in the insurance industry”, which was included in the “Chinese Fintech Development Report 2017”; A veteran in technology trend, blockchain application, and investment.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"

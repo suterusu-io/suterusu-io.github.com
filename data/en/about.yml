@@ -12,4 +12,4 @@ about:
 
   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
     title : Efficiency
-    content : By optimizing the proof generation and verification efficiency, we reduce the gas cost of confidential payment mechanisms and hence provide a more desirable solution.
+    content : By optimizing the proof verification, we reduce the gas cost of confidential payment and hence provide a more desirable solution.

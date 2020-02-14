@@ -9,7 +9,7 @@ feature:
       # feature item loop
     - title : No trusted setup
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : There is no trsuted setup needed. 
+      content : There is no trusted setup needed. 
       
       # feature item loop
     - title : Consant proof size 
