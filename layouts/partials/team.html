@@ -24,13 +24,7 @@
             <!-- <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}"> -->
 
             {{"<!-- member social profile -->" | safeHTML}}
-            <div class="mask">
-              <ul class="list-inline">
-                {{ range .social }}
-                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-                {{ end }}
-              </ul>
-            </div>
+
           </div>
 
           {{"<!-- member name & designation -->" | safeHTML}}
@@ -38,6 +32,13 @@
             <h4>{{ .name }}</h4>
             <span>{{ .designation | markdownify}}</span>
             <p>{{ .content | markdownify }}</p>
+          </div>
+          <div class="container">
+            <ul class="list-inline">
+              {{ range .social }}
+              <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
+            </ul>
           </div>
         </div>
       </div>

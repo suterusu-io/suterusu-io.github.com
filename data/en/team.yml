@@ -10,14 +10,11 @@ team:
       designation : co-Founder
       content : an open-source veteran with more than one decade of successful experience in contributing and building community. He has also worked for Linux distribution companies like Ubuntu in the past and devoted himself to the blockchain industry. He specializes in open source project development, IoT and cloud computing. He is also a strong believer in decentralized technology.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/suterusu_io"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/zhengpenghou/"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+
         
     # team member loop
     - name : Dr. Lin
@@ -26,14 +23,10 @@ team:
       designation : CTO/co-Founder
       content : Huang is an applied cryptographer by training. Huang holds Ph.D. degrees in Applied cryptography and privacy-preserving distributed systems from Shanghai Jiao Tong University and the University of Florida, respectively. He worked as a postdoctoral researcher in Swiss Federal Institute of Technology (EPFL), and then as an associate principal engineer in ASTRI, HongKong. He has published over 20 papers with over 1000 citations on applied cryptography and information security.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/Suter78058619"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/huang-lin-0b70b886"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
         
     # team member loop
     - name : Seven Guo
@@ -42,26 +35,20 @@ team:
       designation : CSO
       content : Dr. Guo holds a Ph.D. degree in Economics. He is the chief strategy officer of the Suterusu project. He was the chief research fellow in the Huobi Academy of Blockchain Application. The author of two books “blockchain reshaping the economy and the world” and “the application of blockchain in the insurance industry”, which was included in the “Chinese Fintech Development Report 2017”; A veteran in technology trend, blockchain application, and investment.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+          link : "https://twitter.com/sevenping1"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/dazhi-guo-989a107a/"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
 
     - name : Jingjing
       image_webp : images/team/team-3.webp
       image : images/team/team-3.jpg
       designation : VP of engineering
-      content : Jingjing graduates from Cornell University and major in computer science both undergraduate and graduate degree. Used to work as software engineer at Uber and Bytedance. He innovates the machine learning model to improve conversion rate for a popular app called Tiktok and generate 80 million rmb per day. He enters crypto markets in 2017 and has a very deep understanding about crypto market. 
+      content : Jingjing has a master's degree in computer science from Cornell University. Used to work as a software engineer in Uber and Bytedance. He designed and implemented a novel machine learning model to improve the conversion rate for the renowned app Tiktok and generate a daily profit of 80 million RMB. He entered crypto markets in 2017 and has a very deep understanding of the crypto market.
       social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "#"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "http://linkedin.com/in/jingjing-zhang-91659a92"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+
