@@ -12,7 +12,7 @@ feature:
       content : There is no trusted setup needed. 
       
       # feature item loop
-    - title : Consant proof size 
+    - title : Constant proof size 
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       content : Usually, the proof size grows as the complexity of the statement to prove increases, but a constant-size proof implies it will remain the same regardless of the statement complexity.
 

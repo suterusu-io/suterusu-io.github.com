@@ -1,103 +1,104 @@
 ---
-title: "为什么要实现一个自己的客户端"
-date: 2020-02-14T16:47:46+08:00
+title: "Why do we need a new client for substrate based blockchain"
+date: 2020-02-15T16:47:46+08:00
 image_webp: images/blog/Suter-banner.webp
 image: images/blog/Suter-banner.jpg
 draft: false
 ---
+# Why do we need a new client
 
-# Suterusu项目为Substrate生态添砖加瓦
-Substrate项目为区块链的构建和应用开发提供了一套灵活且完善的框架，也正是因为其灵活性, 使用substrate来开发应用或者区块链的项目和个人很容易使用自己熟悉的语言和框架来实现和自身业务相关的组件。 Suterusu项目在对零识证明的创新的基础之上构件一套支持不同区块链的隐私保护协议，需要根据自身的开发和实际需求，实现一套更合适的客户端。在此背景下，Suterursu项目使用OCaml函数式语言开发了suter-client .此客户端通过标准的RPC调用与基于substrate的区块链进行交互，项目本身以Apache-2协议授权。
+A zero-knowledge proof is a relatively complicated cryptographic technology. Due to its complexity, it isn’t very easy for most developers and users to use. How to make it easier to let developers use zero-knowledge proof is as important as the algorithm itself. Despite to develop our cryptography algorithm, we feel obligated to provide a more friendly tool to ease the difficulty. To pave the way of easy adoption of zero-knowledge proof is the primary goal we want to achieve through the implementation of our client.
+Suterusu project also wants to support blockchains other than based on the substrate; in this case, a more flexible client resides between underlying layer 1 and layer 2 is expected.
+Therefore, Suterusu project design and develop their client, released under apache-2 license, which means anyone can fork and build an application on top of it. No matter is for commercial purpose or not. The client is written in OCaml.
 
-Suter_chain的代码目前已经公布在github上，目前还处于开发阶段，功能和特性在不断的充实中。 [Suter_client](https://github.com/suterusu-team/suter_cli)
+# Features of suter_cli
 
+## Ease of use and flexible 
+There are several interactions with blockchains full node through RPC calls during a full confidential transaction based on zero-knowledge proof. With suter_cli, we can program the logic required for the transaction, and trigger the batch executions in suter_cli DSL runtime executor. It makes users focus more on business logic rather than the nuance of the underlying implementations.
 
-# 为什么要实现一个自己的客户端
+## Versatility 
+There are different schemes of zero-knowledge proof, and their interfaces differ from one to others. The diversity creates significant challenges to users and developers, particularly when people plan to switch from one to anther. They have to develop all the required library each time. Suter_cli creates a general-purpose protocol by leveraging DSL; it makes zero-knowledge proof schemes is agnostic to users and developers. It also helps developers to build application decoupled with base cryptography algorithm and become more agile.
 
-* 零知识证明做为一项比较复杂的密码学技术，由于其复杂性很难被多数开发者和用户使用，并且零知识证明本身的实现也是百花齐放，我们项目的核心是改进的零知识证明，如何让更多的人能在项目和开发中使用专业的ZKP密码学库是我们想更好的推广零识证明的一个重要途径，在原生的substrate客户端来提供支持会有些局限性。
-Suter的客户端的核心是实现了一套DSL(Doamin specific language), 翻译成中文叫做领域特定语言。 通过实现DSL，零识证明的使用会更加通用，容易和安全。 
+## Security 
+The introduction of the DSL interpretation layer makes the application more secure because the user’s operation with zero-knowledge proof are securely checked and logically verified. Suter_cli plans to support form verification in the future.
 
-* Suter_CLI DSL的特点
-  * 易用性和灵活扩展性
-启动一个ZKP交易有时需要通过多次和公链node的RPC交互，通过DSL可以定义好所有交易逻辑，然后触发DSL runtime executor批量执行。DSL就好比正则表达式，用户只需要关注指定业务规则逻辑，然后触发执行即可。如果没有正则表达式的话，一些简单的匹配操作需要实现各种不同的库来处理，且当需要新功能时又需要增加不同的库，扩展性大打折扣。实用性上远远不如正则表达式任意灵活组合，而Suter_CLI的DSL就好比ZKP领域的正则表达式。
+**More about the syntax and functions of the DSL will be available soon.** 
 
-  * 通用性
-现在ZKP领域有不同的实现方案，接口各一，这对于用户/开发者来说是很大的挑战，如果想切换方案需要根据不同zkp方案的API library重新适配。Suter_CLI通过DSL打造一个ZKP领域的通用标准，用户只需要专注基于DSL实现ZKP业务逻辑，而无需关注底层具体ZKP方案的实现。通过这样解耦，用户方案的通用性可以大幅提升，可以轻松的在任何只要实现了DSL Runtime Executor的平台。还是拿正则表达式举例子，任何项目和语言都可以解析实现正则表达式的解析运行，用户/开发者只需要专注写好正则表达式就行。对应DSL，用户只需要专注用DSL写好ZKP业务逻辑。
+# Suter_cli architecture and components 
+## The architectural diagram as shown in the picture below 
+![Architecture](/images/blog/suter_cli.jpg)
 
-  * 安全性和可调试
-通用引入DSL解析层，可以更容易的对用户ZKP逻辑进行各类参数安全检查和逻辑验证，比如可以通过跟Suter_Chain的后端配合，对ZKP逻辑进行形式化验证，从而保证系统的安全性。
-
-**关于DSL的语法语义以及更多内容，敬请期待我们后续系列文章** 
-
-## Suter_client的架构和组成
-Suter_client架构如图：
-![Suter_client architecture](/images/blog/suter_cli.jpg)
-
-Suter_CLI主要由三个核心组件构成
-* 接口层
-  * Suter_CLI会实现各种ZKP API的DSL Scripts Library，再封装出 JS API或者Ocaml API(其中sJS API由Ocaml自动生成）给普通用户使用
-  * 专家用户：可以直接基于DSL开发，也可以直接调用我们封装的DSL Scripts Library
-
+## Major components
+* Interface Layer 
+    * A Suter_cli DSL Scripts Library to support different zkp API, expose JS(generated through Ocaml automatically) and Ocaml API for users to use. 
+    * For developers to implement based on suter_cli DSL. 
 * DSL Runtime Executor
-  * DSL的核心执行器, 定义和解析DSL语法
-  * 安全检查审计和执行DSL命令
-
+    * Suter_cli core executor, define and parse DSL syntax.
+    * Security audit and DSL command execution. 
 * Connection Component
-  * 负责和底层公链Node的连接交互
+    * Connect and interact with blockchain's node. 
 
-# 如何安装和体验
-  * 安装ocaml环境，确保ocaml的版本高于4.7.0版本
-  * 下载代码并编译
+# How to install and test
+
+## Installation 
+* Have ocaml environment set up, and make sure it is newer than 4.7.0
+* Clone the code and compile it
+
 ```
 git clone https://github.com/suterusu-team/suter_cli 
 cd suter_cli
 ./configure.sh 
 make 
 ```
-* 启动substrate节点，并确保其监听9944端口
- 
+* Start substrate node and make it listen on port 9944
+
 ```
 ./wsclient.native -url http://127.0.0.1:9944
+
 ```
 
-# Stuer_client提供了两种方式
-* 交互式命令行
+## Play with it
+There are two ways to play with it   
+* Interactive mode 
 
 ```
 > wsclient.native -url http:127.0.0.1
+
 ```
 
-如上启动交互式命令行后，你可以像这样输入和执行命令：
+After run the command above, you will get a shell like below: from within, you can run command
 
 ```
 > id := [0]
 //An extended json format which can reuse local variables in json fields.
 > @send id |> chain_getBlockHash
-```
 
-以上命令会返回chain的第0个Block的Hash值:
+``` 
+Command as above will get the hash value of block 0 of the bloackchain
 
 ```
 > Response: "0x2895bf7b698e2efaa18eb3a1f0980f983a7778ca74a9abf123e1d08f9789c66b"
 ```
 
-你也可以把返回值存储到本地变量供将来使用：
+You may store the value locally for afterwards use. 
 
 ```
 > hash := @send id |> chain_getBlockHash
 ```
 
-这样，节点的chain_getBlockHash api就被调用成功了。
+If you are following so far, it means that you're able to interact with node through API call successfully. 
 
-* 脚本方式
+* Script mode
+You may also program all your actions into a script, the default script end with .sbl, ie. chain_getBlockHash.sbl
 
-比如直接写好脚本
-chain_getBlockHash.sbl
 
 ```
 > id := [0]
 > @send id |> chain_getBlockHash
+
 ```
+
+Then run the command with the scripts as a parameter
 
 ```
 > wsclient.native -url http:127.0.0.1  chain_getBlockHash.sbl
