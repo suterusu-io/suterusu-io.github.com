@@ -3,7 +3,7 @@ feature:
   enable : true
   image : images/about/features.jpg
   image_webp : images/about/features.webp
-  title : zk-ConSNARK is the key tecnonolgy 
+  title : zk-ConSNARK is the key technology 
   content : "a state-of-the-art trustless ZK-SNARK scheme with almost constant size proof and efficient proof generation and verification."
   feature_item : 
       # feature item loop
