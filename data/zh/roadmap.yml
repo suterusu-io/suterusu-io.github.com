@@ -2,3 +2,23 @@
 roadmap:
   bg_image : "images/backgrounds/roadmap.jpg"
   bg_image_webp : "images/backgrounds/roadmap.webp"
+  roadmap_item : 
+    - time : 2019.7 
+      title : 项目准备阶段 
+      content : 项目调研，零知识证明方面的研究工作。
+
+    - time : 2019.12
+      title : 初始化阶段 
+      content : zk-ConSNARK方案设计, 架构设计, suter_chain原型设计  
+
+    - time : 2020.3
+      title : 测试网 
+      content :  zk-ConSNARK SDK, suter_chain通用客户端, suter_chain的测试网。
+
+    - time : 2020.9
+      title : 主网上线
+      content : zk-ConSNAKR 集成, 隐私合约实现, 通用的隐私协议以支持其它公链，相应的应用开发。 
+
+    - time : 2020.6 
+      title:  隐私跨链
+      content : 全功能的SuterVM, 隐私跨链支持，生态建设

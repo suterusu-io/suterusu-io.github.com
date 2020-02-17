@@ -1,4 +1,24 @@
 ################################# roadmap ##################################
-roadmap:
+roadmap :
   bg_image : "images/backgrounds/roadmap.jpg"
   bg_image_webp : "images/backgrounds/roadmap.webp"
+  roadmap_item : 
+    - time : 2019.7 
+      title : Project preparing 
+      content : Mostly doing research on zero-knowledge proof and it's derivatives.
+
+    - time : 2019.12
+      title : Bootstrap stage 
+      content : zk-ConSNARK solution design, architecture design, suter_chain prototype  
+
+    - time : 2020.3
+      title : Testnet launch 
+      content :  zk-ConSNARK SDK, suter_chain client, suter_chain testnet
+
+    - time : 2020.9
+      title : Mainnet launch
+      content : zk-ConSNAKR integration, confidential smart contract, standardize solution for other blockchains, application building 
+
+    - time : 2020.6 
+      title: Privacy cross-chains
+      content : full function SuterVM, cross-chains with privacy support, ecosystem building
